@@ -1,0 +1,1082 @@
+[
+  {
+    "theme": "Largecap",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 19492.050000000003,
+    "stocks": [
+      {
+        "symbol": "ADANIPORTS",
+        "name": "Adani Ports and Special Economic Zone",
+        "price": 1180.5,
+        "rank": 1.0,
+        "theme": "Largecap",
+        "52_week_low": 995.65,
+        "52_week_high": 1621.4,
+        "current_price": 1180.5
+      },
+      {
+        "symbol": "CIPLA",
+        "name": "Cipla",
+        "price": 1441.0,
+        "rank": 2.0,
+        "theme": "Largecap",
+        "52_week_low": 1317.25,
+        "52_week_high": 1702.05,
+        "current_price": 1441.0
+      },
+      {
+        "symbol": "EICHERMOT",
+        "name": "Eicher Motors",
+        "price": 5345.25,
+        "rank": 3.0,
+        "theme": "Largecap",
+        "52_week_low": 3886.1,
+        "52_week_high": 5575.5,
+        "current_price": 5345.25
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services",
+        "price": 3604.0,
+        "rank": 4.0,
+        "theme": "Largecap",
+        "52_week_low": 3457.0,
+        "52_week_high": 4592.25,
+        "current_price": 3604.0
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "name": "Sun Pharmaceutical Industries",
+        "price": 1733.95,
+        "rank": 5.0,
+        "theme": "Largecap",
+        "52_week_low": 1377.2,
+        "52_week_high": 1960.35,
+        "current_price": 1733.95
+      },
+      {
+        "symbol": "COALINDIA",
+        "name": "Coal India",
+        "price": 397.3,
+        "rank": 6.0,
+        "theme": "Largecap",
+        "52_week_low": 349.25,
+        "52_week_high": 543.55,
+        "current_price": 397.3
+      },
+      {
+        "symbol": "INFY",
+        "name": "Infosys",
+        "price": 1569.0,
+        "rank": 7.0,
+        "theme": "Largecap",
+        "52_week_low": 1358.35,
+        "52_week_high": 2006.45,
+        "current_price": 1569.0
+      },
+      {
+        "symbol": "DRREDDY",
+        "name": "Dr. Reddy's Laboratories",
+        "price": 1145.0,
+        "rank": 8.0,
+        "theme": "Largecap",
+        "52_week_low": 1092.45,
+        "52_week_high": 1421.49,
+        "current_price": 1145.0
+      },
+      {
+        "symbol": "ITC",
+        "name": "ITC Limited",
+        "price": 410.25,
+        "rank": 9.0,
+        "theme": "Largecap",
+        "52_week_low": 391.2,
+        "52_week_high": 528.5,
+        "current_price": 410.25
+      },
+      {
+        "symbol": "M&M",
+        "name": "Mahindra & Mahindra",
+        "price": 2665.8,
+        "rank": 10.0,
+        "theme": "Largecap",
+        "52_week_low": 1788.8,
+        "52_week_high": 3270.95,
+        "current_price": 2665.8
+      }
+    ]
+  },
+  {
+    "theme": "Midcap",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 23410.199999999983,
+    "stocks": [
+      {
+        "symbol": "OBEROIRLTY",
+        "name": "Oberoi Realty",
+        "price": 1634.9,
+        "rank": 1.0,
+        "theme": "Midcap",
+        "52_week_low": 1359.25,
+        "52_week_high": 2343.65,
+        "current_price": 1634.9
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "name": "Cummins India",
+        "price": 3040.0,
+        "rank": 2.0,
+        "theme": "Midcap",
+        "52_week_low": 2636.75,
+        "52_week_high": 4171.9,
+        "current_price": 3040.0
+      },
+      {
+        "symbol": "HDFCAMC",
+        "name": "HDFC Asset Management Company",
+        "price": 4009.0,
+        "rank": 3.0,
+        "theme": "Midcap",
+        "52_week_low": 3415.55,
+        "52_week_high": 4864.0,
+        "current_price": 4009.0
+      },
+      {
+        "symbol": "KPITTECH",
+        "name": "KPIT Technologies",
+        "price": 1308.0,
+        "rank": 4.0,
+        "theme": "Midcap",
+        "52_week_low": 1142.3,
+        "52_week_high": 1928.7,
+        "current_price": 1308.0
+      },
+      {
+        "symbol": "INDUSTOWER",
+        "name": "Indus Towers",
+        "price": 333.25,
+        "rank": 5.0,
+        "theme": "Midcap",
+        "52_week_low": 292.0,
+        "52_week_high": 460.35,
+        "current_price": 333.25
+      },
+      {
+        "symbol": "COLPAL",
+        "name": "Colgate-Palmolive (India)",
+        "price": 2399.0,
+        "rank": 6.0,
+        "theme": "Midcap",
+        "52_week_low": 2341.4,
+        "52_week_high": 3890.0,
+        "current_price": 2399.0
+      },
+      {
+        "symbol": "SUZLON",
+        "name": "Suzlon Energy",
+        "price": 56.75,
+        "rank": 7.0,
+        "theme": "Midcap",
+        "52_week_low": 37.9,
+        "52_week_high": 86.04,
+        "current_price": 56.75
+      },
+      {
+        "symbol": "INDHOTEL",
+        "name": "The Indian Hotels Company",
+        "price": 785.3,
+        "rank": 8.0,
+        "theme": "Midcap",
+        "52_week_low": 506.45,
+        "52_week_high": 894.9,
+        "current_price": 785.3
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software",
+        "price": 7820.0,
+        "rank": 9.0,
+        "theme": "Midcap",
+        "52_week_low": 7022.55,
+        "52_week_high": 13220.0,
+        "current_price": 7820.0
+      },
+      {
+        "symbol": "LUPIN",
+        "name": "Lupin",
+        "price": 2024.0,
+        "rank": 10.0,
+        "theme": "Midcap",
+        "52_week_low": 1493.3,
+        "52_week_high": 2402.9,
+        "current_price": 2024.0
+      }
+    ]
+  },
+  {
+    "theme": "Smallcap",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 12958.440000000002,
+    "stocks": [
+      {
+        "symbol": "CAMS",
+        "name": "Computer Age Management Services",
+        "price": 3712.0,
+        "rank": 1.0,
+        "theme": "Smallcap",
+        "52_week_low": 2942.05,
+        "52_week_high": 5367.5,
+        "current_price": 3712.0
+      },
+      {
+        "symbol": "CDSL",
+        "name": "Central Depository Services (India)",
+        "price": 1220.0,
+        "rank": 2.0,
+        "theme": "Smallcap",
+        "52_week_low": 863.4,
+        "52_week_high": 1989.8,
+        "current_price": 1220.0
+      },
+      {
+        "symbol": "NATCOPHARM",
+        "name": "NATCO Pharma",
+        "price": 799.85,
+        "rank": 3.0,
+        "theme": "Smallcap",
+        "52_week_low": 757.05,
+        "52_week_high": 1639.0,
+        "current_price": 799.85
+      },
+      {
+        "symbol": "HINDCOPPER",
+        "name": "Hindustan Copper",
+        "price": 219.54,
+        "rank": 4.0,
+        "theme": "Smallcap",
+        "52_week_low": 195.4,
+        "52_week_high": 415.8,
+        "current_price": 219.54
+      },
+      {
+        "symbol": "GESHIP",
+        "name": "The Great Eastern Shipping Company",
+        "price": 929.0,
+        "rank": 5.0,
+        "theme": "Smallcap",
+        "52_week_low": 797.5,
+        "52_week_high": 1543.7,
+        "current_price": 929.0
+      },
+      {
+        "symbol": "CASTROLIND",
+        "name": "Castrol India",
+        "price": 202.4,
+        "rank": 6.0,
+        "theme": "Smallcap",
+        "52_week_low": 162.6,
+        "52_week_high": 284.4,
+        "current_price": 202.4
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "name": "Sonata Software",
+        "price": 345.0,
+        "rank": 7.0,
+        "theme": "Smallcap",
+        "52_week_low": 341.95,
+        "52_week_high": 769.7,
+        "current_price": 345.0
+      },
+      {
+        "symbol": "HSCL",
+        "name": "Himadri Speciality Chemical",
+        "price": 421.75,
+        "rank": 8.0,
+        "theme": "Smallcap",
+        "52_week_low": 302.0,
+        "52_week_high": 688.7,
+        "current_price": 421.75
+      },
+      {
+        "symbol": "KAYNES",
+        "name": "Kaynes Technology India",
+        "price": 4722.05,
+        "rank": 9.0,
+        "theme": "Smallcap",
+        "52_week_low": 2424.0,
+        "52_week_high": 7822.0,
+        "current_price": 4722.05
+      },
+      {
+        "symbol": "BSOFT",
+        "name": "Birlasoft",
+        "price": 386.85,
+        "rank": 10.0,
+        "theme": "Smallcap",
+        "52_week_low": 384.55,
+        "52_week_high": 789.9,
+        "current_price": 386.85
+      }
+    ]
+  },
+  {
+    "theme": "Realty",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 12232.54999999996,
+    "stocks": [
+      {
+        "symbol": "OBEROIRLTY",
+        "name": "Oberoi Realty",
+        "price": 1634.9,
+        "rank": 1.0,
+        "theme": "Realty",
+        "52_week_low": 1359.25,
+        "52_week_high": 2343.65,
+        "current_price": 1634.9
+      },
+      {
+        "symbol": "DLF",
+        "name": "DLF Limited",
+        "price": 680.25,
+        "rank": 2.0,
+        "theme": "Realty",
+        "52_week_low": 622.0,
+        "52_week_high": 967.6,
+        "current_price": 680.25
+      },
+      {
+        "symbol": "ANANTRAJ",
+        "name": "Anant Raj",
+        "price": 490.4,
+        "rank": 3.0,
+        "theme": "Realty",
+        "52_week_low": 314.0,
+        "52_week_high": 947.9,
+        "current_price": 490.4
+      },
+      {
+        "symbol": "LODHA",
+        "name": "Macrotech Developers",
+        "price": 1196.9,
+        "rank": 4.0,
+        "theme": "Realty",
+        "52_week_low": 1035.15,
+        "52_week_high": 1649.95,
+        "current_price": 1196.9
+      },
+      {
+        "symbol": "BRIGADE",
+        "name": "Brigade Enterprises",
+        "price": 966.5,
+        "rank": 5.0,
+        "theme": "Realty",
+        "52_week_low": 914.85,
+        "52_week_high": 1453.1,
+        "current_price": 966.5
+      },
+      {
+        "symbol": "GODREJPROP",
+        "name": "Godrej Properties",
+        "price": 2126.8,
+        "rank": 6.0,
+        "theme": "Realty",
+        "52_week_low": 1901.0,
+        "52_week_high": 3402.7,
+        "current_price": 2126.8
+      },
+      {
+        "symbol": "PHOENIXLTD",
+        "name": "The Phoenix Mills",
+        "price": 1635.75,
+        "rank": 7.0,
+        "theme": "Realty",
+        "52_week_low": 1338.05,
+        "52_week_high": 2068.5,
+        "current_price": 1635.75
+      },
+      {
+        "symbol": "PRESTIGE",
+        "name": "Prestige Estates Projects",
+        "price": 1180.0,
+        "rank": 8.0,
+        "theme": "Realty",
+        "52_week_low": 1083.65,
+        "52_week_high": 2074.8,
+        "current_price": 1180.0
+      },
+      {
+        "symbol": "SOBHA",
+        "name": "Sobha",
+        "price": 1225.05,
+        "rank": 9.0,
+        "theme": "Realty",
+        "52_week_low": 1096.85,
+        "52_week_high": 2160.8,
+        "current_price": 1225.05
+      },
+      {
+        "symbol": "SIGNATURE",
+        "name": "Signatureglobal (India)",
+        "price": 1096.0,
+        "rank": 10.0,
+        "theme": "Realty",
+        "52_week_low": 1010.8,
+        "52_week_high": 1647.0,
+        "current_price": 1096.0
+      }
+    ]
+  },
+  {
+    "theme": "Healthcare",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 50455.700000000026,
+    "stocks": [
+      {
+        "symbol": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences",
+        "price": 885.45,
+        "rank": 1.0,
+        "theme": "Healthcare",
+        "52_week_low": 855.1,
+        "52_week_high": 1324.3,
+        "current_price": 885.45
+      },
+      {
+        "symbol": "CIPLA",
+        "name": "Cipla",
+        "price": 1441.0,
+        "rank": 2.0,
+        "theme": "Healthcare",
+        "52_week_low": 1317.25,
+        "52_week_high": 1702.05,
+        "current_price": 1441.0
+      },
+      {
+        "symbol": "DIVISLAB",
+        "name": "Divi's Laboratories",
+        "price": 5776.65,
+        "rank": 3.0,
+        "theme": "Healthcare",
+        "52_week_low": 3450.0,
+        "52_week_high": 6285.45,
+        "current_price": 5776.65
+      },
+      {
+        "symbol": "LUPIN",
+        "name": "Lupin",
+        "price": 2024.0,
+        "rank": 4.0,
+        "theme": "Healthcare",
+        "52_week_low": 1493.3,
+        "52_week_high": 2402.9,
+        "current_price": 2024.0
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "name": "Sun Pharmaceutical Industries",
+        "price": 1733.95,
+        "rank": 5.0,
+        "theme": "Healthcare",
+        "52_week_low": 1377.2,
+        "52_week_high": 1960.35,
+        "current_price": 1733.95
+      },
+      {
+        "symbol": "ABBOTINDIA",
+        "name": "Abbott India",
+        "price": 30650.0,
+        "rank": 6.0,
+        "theme": "Healthcare",
+        "52_week_low": 25200.0,
+        "52_week_high": 31899.0,
+        "current_price": 30650.0
+      },
+      {
+        "symbol": "TORNTPHARM",
+        "name": "Torrent Pharmaceuticals",
+        "price": 3221.05,
+        "rank": 7.0,
+        "theme": "Healthcare",
+        "52_week_low": 2505.3,
+        "52_week_high": 3590.7,
+        "current_price": 3221.05
+      },
+      {
+        "symbol": "MANKIND",
+        "name": "Mankind Pharma",
+        "price": 2423.6,
+        "rank": 8.0,
+        "theme": "Healthcare",
+        "52_week_low": 1901.05,
+        "52_week_high": 3054.8,
+        "current_price": 2423.6
+      },
+      {
+        "symbol": "DRREDDY",
+        "name": "Dr. Reddy's Laboratories",
+        "price": 1145.0,
+        "rank": 9.0,
+        "theme": "Healthcare",
+        "52_week_low": 1092.45,
+        "52_week_high": 1421.49,
+        "current_price": 1145.0
+      },
+      {
+        "symbol": "AUROPHARMA",
+        "name": "Aurobindo Pharma",
+        "price": 1155.0,
+        "rank": 10.0,
+        "theme": "Healthcare",
+        "52_week_low": 1031.05,
+        "52_week_high": 1592.0,
+        "current_price": 1155.0
+      }
+    ]
+  },
+  {
+    "theme": "Auto",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 30310.540000000008,
+    "stocks": [
+      {
+        "symbol": "BALKRISIND",
+        "name": "Balkrishna Industries",
+        "price": 2549.0,
+        "rank": 1.0,
+        "theme": "Auto",
+        "52_week_low": 2265.3,
+        "52_week_high": 3375.0,
+        "current_price": 2549.0
+      },
+      {
+        "symbol": "EICHERMOT",
+        "name": "Eicher Motors",
+        "price": 5345.25,
+        "rank": 2.0,
+        "theme": "Auto",
+        "52_week_low": 3886.1,
+        "52_week_high": 5575.5,
+        "current_price": 5345.25
+      },
+      {
+        "symbol": "UNOMINDA",
+        "name": "Uno Minda",
+        "price": 876.95,
+        "rank": 3.0,
+        "theme": "Auto",
+        "52_week_low": 680.8,
+        "52_week_high": 1255.0,
+        "current_price": 876.95
+      },
+      {
+        "symbol": "HEROMOTOCO",
+        "name": "Hero MotoCorp",
+        "price": 3721.0,
+        "rank": 4.0,
+        "theme": "Auto",
+        "52_week_low": 3461.6,
+        "52_week_high": 6246.25,
+        "current_price": 3721.0
+      },
+      {
+        "symbol": "M&M",
+        "name": "Mahindra & Mahindra",
+        "price": 2665.8,
+        "rank": 5.0,
+        "theme": "Auto",
+        "52_week_low": 1788.8,
+        "52_week_high": 3270.95,
+        "current_price": 2665.8
+      },
+      {
+        "symbol": "MARUTI",
+        "name": "Maruti Suzuki India",
+        "price": 11490.0,
+        "rank": 6.0,
+        "theme": "Auto",
+        "52_week_low": 10725.0,
+        "52_week_high": 13680.0,
+        "current_price": 11490.0
+      },
+      {
+        "symbol": "TVSMOTOR",
+        "name": "TVS Motor Company",
+        "price": 2415.05,
+        "rank": 7.0,
+        "theme": "Auto",
+        "52_week_low": 1873.0,
+        "52_week_high": 2958.0,
+        "current_price": 2415.05
+      },
+      {
+        "symbol": "ASHOKLEY",
+        "name": "Ashok Leyland",
+        "price": 204.5,
+        "rank": 8.0,
+        "theme": "Auto",
+        "52_week_low": 166.25,
+        "52_week_high": 264.65,
+        "current_price": 204.5
+      },
+      {
+        "symbol": "SUNDRMFAST",
+        "name": "Sundram Fasteners",
+        "price": 912.0,
+        "rank": 9.0,
+        "theme": "Auto",
+        "52_week_low": 884.0,
+        "52_week_high": 1505.95,
+        "current_price": 912.0
+      },
+      {
+        "symbol": "MOTHERSON",
+        "name": "Samvardhana Motherson International",
+        "price": 130.99,
+        "rank": 10.0,
+        "theme": "Auto",
+        "52_week_low": 115.83,
+        "52_week_high": 216.99,
+        "current_price": 130.99
+      }
+    ]
+  },
+  {
+    "theme": "Consumer durables",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 21087.550000000017,
+    "stocks": [
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages",
+        "price": 540.05,
+        "rank": 1.0,
+        "theme": "Consumer durables",
+        "52_week_low": 419.55,
+        "52_week_high": 681.12,
+        "current_price": 540.05
+      },
+      {
+        "symbol": "COLPAL",
+        "name": "Colgate-Palmolive (India)",
+        "price": 2399.0,
+        "rank": 2.0,
+        "theme": "Consumer durables",
+        "52_week_low": 2341.4,
+        "52_week_high": 3890.0,
+        "current_price": 2399.0
+      },
+      {
+        "symbol": "EMAMILTD",
+        "name": "Emami",
+        "price": 580.0,
+        "rank": 3.0,
+        "theme": "Consumer durables",
+        "52_week_low": 428.2,
+        "52_week_high": 860.0,
+        "current_price": 580.0
+      },
+      {
+        "symbol": "ITC",
+        "name": "ITC Limited",
+        "price": 410.25,
+        "rank": 4.0,
+        "theme": "Consumer durables",
+        "52_week_low": 391.2,
+        "52_week_high": 528.5,
+        "current_price": 410.25
+      },
+      {
+        "symbol": "MARICO",
+        "name": "Marico",
+        "price": 652.95,
+        "rank": 5.0,
+        "theme": "Consumer durables",
+        "52_week_low": 490.55,
+        "52_week_high": 736.9,
+        "current_price": 652.95
+      },
+      {
+        "symbol": "HERITGFOOD",
+        "name": "Heritage Foods",
+        "price": 385.7,
+        "rank": 6.0,
+        "theme": "Consumer durables",
+        "52_week_low": 296.4,
+        "52_week_high": 727.35,
+        "current_price": 385.7
+      },
+      {
+        "symbol": "VSTIND",
+        "name": "VST Industries",
+        "price": 262.6,
+        "rank": 7.0,
+        "theme": "Consumer durables",
+        "52_week_low": 242.05,
+        "52_week_high": 486.15,
+        "current_price": 262.6
+      },
+      {
+        "symbol": "JYOTHYLAB",
+        "name": "Jyothy Labs",
+        "price": 328.0,
+        "rank": 8.0,
+        "theme": "Consumer durables",
+        "52_week_low": 310.2,
+        "52_week_high": 595.85,
+        "current_price": 328.0
+      },
+      {
+        "symbol": "UBL",
+        "name": "United Breweries",
+        "price": 2000.0,
+        "rank": 9.0,
+        "theme": "Consumer durables",
+        "52_week_low": 1736.0,
+        "52_week_high": 2299.7,
+        "current_price": 2000.0
+      },
+      {
+        "symbol": "PGHH",
+        "name": "Procter & Gamble Hygiene and Health Care",
+        "price": 13529.0,
+        "rank": 10.0,
+        "theme": "Consumer durables",
+        "52_week_low": 12106.0,
+        "52_week_high": 17745.0,
+        "current_price": 13529.0
+      }
+    ]
+  },
+  {
+    "theme": "IT",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 32467.75000000003,
+    "stocks": [
+      {
+        "symbol": "KPITTECH",
+        "name": "KPIT Technologies",
+        "price": 1308.0,
+        "rank": 1.0,
+        "theme": "IT",
+        "52_week_low": 1142.3,
+        "52_week_high": 1928.7,
+        "current_price": 1308.0
+      },
+      {
+        "symbol": "RATEGAIN",
+        "name": "RateGain Travel Technologies",
+        "price": 445.6,
+        "rank": 2.0,
+        "theme": "IT",
+        "52_week_low": 419.4,
+        "52_week_high": 859.0,
+        "current_price": 445.6
+      },
+      {
+        "symbol": "OFSS",
+        "name": "Oracle Financial Services Software",
+        "price": 7820.0,
+        "rank": 3.0,
+        "theme": "IT",
+        "52_week_low": 7022.55,
+        "52_week_high": 13220.0,
+        "current_price": 7820.0
+      },
+      {
+        "symbol": "TCS",
+        "name": "Tata Consultancy Services",
+        "price": 3604.0,
+        "rank": 4.0,
+        "theme": "IT",
+        "52_week_low": 3457.0,
+        "52_week_high": 4592.25,
+        "current_price": 3604.0
+      },
+      {
+        "symbol": "TATAELXSI",
+        "name": "Tata Elxsi",
+        "price": 5200.45,
+        "rank": 5.0,
+        "theme": "IT",
+        "52_week_low": 5157.7,
+        "52_week_high": 9080.0,
+        "current_price": 5200.45
+      },
+      {
+        "symbol": "MASTEK",
+        "name": "Mastek",
+        "price": 2170.0,
+        "rank": 6.0,
+        "theme": "IT",
+        "52_week_low": 2061.05,
+        "52_week_high": 3375.0,
+        "current_price": 2170.0
+      },
+      {
+        "symbol": "PERSISTENT",
+        "name": "Persistent Systems",
+        "price": 5483.85,
+        "rank": 7.0,
+        "theme": "IT",
+        "52_week_low": 3232.05,
+        "52_week_high": 6788.9,
+        "current_price": 5483.85
+      },
+      {
+        "symbol": "AFFLE",
+        "name": "Affle (India)",
+        "price": 1610.0,
+        "rank": 8.0,
+        "theme": "IT",
+        "52_week_low": 1033.35,
+        "52_week_high": 1884.0,
+        "current_price": 1610.0
+      },
+      {
+        "symbol": "LTTS",
+        "name": "L&T Technology Services",
+        "price": 4480.85,
+        "rank": 9.0,
+        "theme": "IT",
+        "52_week_low": 4200.0,
+        "52_week_high": 6000.0,
+        "current_price": 4480.85
+      },
+      {
+        "symbol": "SONATSOFTW",
+        "name": "Sonata Software",
+        "price": 345.0,
+        "rank": 10.0,
+        "theme": "IT",
+        "52_week_low": 341.95,
+        "52_week_high": 769.7,
+        "current_price": 345.0
+      }
+    ]
+  },
+  {
+    "theme": "Consumer Discretionary",
+    "type": "pure",
+    "investment": 150000.0,
+    "invested": 23816.049999999974,
+    "stocks": [
+      {
+        "symbol": "SYMPHONY",
+        "name": "Symphony",
+        "price": 1115.0,
+        "rank": 1.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 852.0,
+        "52_week_high": 1880.95,
+        "current_price": 1115.0
+      },
+      {
+        "symbol": "TRENT",
+        "name": "Trent",
+        "price": 5306.05,
+        "rank": 2.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 3843.0,
+        "52_week_high": 8345.0,
+        "current_price": 5306.05
+      },
+      {
+        "symbol": "INDHOTEL",
+        "name": "The Indian Hotels Company",
+        "price": 785.3,
+        "rank": 3.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 506.45,
+        "52_week_high": 894.9,
+        "current_price": 785.3
+      },
+      {
+        "symbol": "DLF",
+        "name": "DLF Limited",
+        "price": 680.25,
+        "rank": 4.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 622.0,
+        "52_week_high": 967.6,
+        "current_price": 680.25
+      },
+      {
+        "symbol": "IRCTC",
+        "name": "Indian Railway Catering & Tourism Corporation",
+        "price": 727.0,
+        "rank": 5.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 656.05,
+        "52_week_high": 1138.9,
+        "current_price": 727.0
+      },
+      {
+        "symbol": "EICHERMOT",
+        "name": "Eicher Motors",
+        "price": 5345.25,
+        "rank": 6.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 3886.1,
+        "52_week_high": 5575.5,
+        "current_price": 5345.25
+      },
+      {
+        "symbol": "JUSTDIAL",
+        "name": "Just Dial",
+        "price": 813.75,
+        "rank": 7.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 756.05,
+        "52_week_high": 1395.0,
+        "current_price": 813.75
+      },
+      {
+        "symbol": "NAUKRI",
+        "name": "Info Edge (India)",
+        "price": 7148.5,
+        "rank": 8.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 5250.0,
+        "52_week_high": 9128.9,
+        "current_price": 7148.5
+      },
+      {
+        "symbol": "UNOMINDA",
+        "name": "Uno Minda",
+        "price": 876.95,
+        "rank": 9.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 680.8,
+        "52_week_high": 1255.0,
+        "current_price": 876.95
+      },
+      {
+        "symbol": "METROBRAND",
+        "name": "Metro Brands",
+        "price": 1018.0,
+        "rank": 10.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 990.05,
+        "52_week_high": 1430.0,
+        "current_price": 1018.0
+      }
+    ]
+  },
+  {
+    "theme": "Hybrid",
+    "type": "hybrid",
+    "investment": 150000.0,
+    "invested": 17405.899999999994,
+    "stocks": [
+      {
+        "symbol": "ADANIPORTS",
+        "name": "Adani Ports and Special Economic Zone",
+        "price": 1180.5,
+        "rank": 1.0,
+        "theme": "Largecap",
+        "52_week_low": 995.65,
+        "52_week_high": 1621.4,
+        "current_price": 1180.5
+      },
+      {
+        "symbol": "OBEROIRLTY",
+        "name": "Oberoi Realty",
+        "price": 1634.9,
+        "rank": 1.0,
+        "theme": "Midcap",
+        "52_week_low": 1359.25,
+        "52_week_high": 2343.65,
+        "current_price": 1634.9
+      },
+      {
+        "symbol": "CAMS",
+        "name": "Computer Age Management Services",
+        "price": 3712.0,
+        "rank": 1.0,
+        "theme": "Smallcap",
+        "52_week_low": 2942.05,
+        "52_week_high": 5367.5,
+        "current_price": 3712.0
+      },
+      {
+        "symbol": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences",
+        "price": 885.45,
+        "rank": 1.0,
+        "theme": "Healthcare",
+        "52_week_low": 855.1,
+        "52_week_high": 1324.3,
+        "current_price": 885.45
+      },
+      {
+        "symbol": "BALKRISIND",
+        "name": "Balkrishna Industries",
+        "price": 2549.0,
+        "rank": 1.0,
+        "theme": "Auto",
+        "52_week_low": 2265.3,
+        "52_week_high": 3375.0,
+        "current_price": 2549.0
+      },
+      {
+        "symbol": "VBL",
+        "name": "Varun Beverages",
+        "price": 540.05,
+        "rank": 1.0,
+        "theme": "Consumer durables",
+        "52_week_low": 419.55,
+        "52_week_high": 681.12,
+        "current_price": 540.05
+      },
+      {
+        "symbol": "KPITTECH",
+        "name": "KPIT Technologies",
+        "price": 1308.0,
+        "rank": 1.0,
+        "theme": "IT",
+        "52_week_low": 1142.3,
+        "52_week_high": 1928.7,
+        "current_price": 1308.0
+      },
+      {
+        "symbol": "SYMPHONY",
+        "name": "Symphony",
+        "price": 1115.0,
+        "rank": 1.0,
+        "theme": "Consumer Discretionary",
+        "52_week_low": 852.0,
+        "52_week_high": 1880.95,
+        "current_price": 1115.0
+      },
+      {
+        "symbol": "CIPLA",
+        "name": "Cipla",
+        "price": 1441.0,
+        "rank": 2.0,
+        "theme": "Largecap",
+        "52_week_low": 1317.25,
+        "52_week_high": 1702.05,
+        "current_price": 1441.0
+      },
+      {
+        "symbol": "CUMMINSIND",
+        "name": "Cummins India",
+        "price": 3040.0,
+        "rank": 2.0,
+        "theme": "Midcap",
+        "52_week_low": 2636.75,
+        "52_week_high": 4171.9,
+        "current_price": 3040.0
+      }
+    ]
+  }
+]

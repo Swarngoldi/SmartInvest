@@ -1,0 +1,209 @@
+[
+  {
+    "theme": "Largecap",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "WIPRO",
+        "name": "Wipro",
+        "price": 262.5,
+        "rank": 12.0,
+        "theme": "Largecap",
+        "52_week_low": 208.5,
+        "52_week_high": 324.6,
+        "current_price": 262.5
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 37.5,
+    "count": 1,
+    "risk": "high",
+    "invested": 262.5
+  },
+  {
+    "theme": "Midcap",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "SUZLON",
+        "name": "Suzlon Energy",
+        "price": 56.75,
+        "rank": 7.0,
+        "theme": "Midcap",
+        "52_week_low": 37.9,
+        "52_week_high": 86.04,
+        "current_price": 56.75
+      },
+      {
+        "symbol": "NMDC",
+        "name": "NMDC Limited",
+        "price": 68.75,
+        "rank": 11.0,
+        "theme": "Midcap",
+        "52_week_low": 59.7,
+        "52_week_high": 95.45,
+        "current_price": 68.75
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 174.5,
+    "count": 2,
+    "risk": "high",
+    "invested": 125.5
+  },
+  {
+    "theme": "Smallcap",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "HINDCOPPER",
+        "name": "Hindustan Copper",
+        "price": 219.54,
+        "rank": 4.0,
+        "theme": "Smallcap",
+        "52_week_low": 195.4,
+        "52_week_high": 415.8,
+        "current_price": 219.54
+      },
+      {
+        "symbol": "HFCL",
+        "name": "HFCL Limited",
+        "price": 78.86,
+        "rank": 14.0,
+        "theme": "Smallcap",
+        "52_week_low": 77.0,
+        "52_week_high": 171.0,
+        "current_price": 78.86
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 1.6000000000000085,
+    "count": 2,
+    "risk": "high",
+    "invested": 298.4
+  },
+  {
+    "theme": "Realty",
+    "type": "pure",
+    "stocks": [],
+    "investment": 300.0,
+    "remaining": 300.0,
+    "count": 0,
+    "risk": "high",
+    "invested": 0.0
+  },
+  {
+    "theme": "Healthcare",
+    "type": "pure",
+    "stocks": [],
+    "investment": 300.0,
+    "remaining": 300.0,
+    "count": 0,
+    "risk": "high",
+    "invested": 0.0
+  },
+  {
+    "theme": "Auto",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "ASHOKLEY",
+        "name": "Ashok Leyland",
+        "price": 204.5,
+        "rank": 8.0,
+        "theme": "Auto",
+        "52_week_low": 166.25,
+        "52_week_high": 264.65,
+        "current_price": 204.5
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 95.5,
+    "count": 1,
+    "risk": "high",
+    "invested": 204.5
+  },
+  {
+    "theme": "Consumer durables",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "VSTIND",
+        "name": "VST Industries",
+        "price": 262.6,
+        "rank": 7.0,
+        "theme": "Consumer durables",
+        "52_week_low": 242.05,
+        "52_week_high": 486.15,
+        "current_price": 262.6
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 37.39999999999998,
+    "count": 1,
+    "risk": "high",
+    "invested": 262.6
+  },
+  {
+    "theme": "IT",
+    "type": "pure",
+    "stocks": [
+      {
+        "symbol": "WIPRO",
+        "name": "Wipro",
+        "price": 262.5,
+        "rank": 15.0,
+        "theme": "IT",
+        "52_week_low": 208.5,
+        "52_week_high": 324.6,
+        "current_price": 262.5
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 37.5,
+    "count": 1,
+    "risk": "high",
+    "invested": 262.5
+  },
+  {
+    "theme": "Consumer Discretionary",
+    "type": "pure",
+    "stocks": [],
+    "investment": 300.0,
+    "remaining": 300.0,
+    "count": 0,
+    "risk": "high",
+    "invested": 0.0
+  },
+  {
+    "theme": "Hybrid",
+    "type": "hybrid",
+    "stocks": [
+      {
+        "symbol": "HINDCOPPER",
+        "name": "Hindustan Copper",
+        "price": 219.54,
+        "rank": 4.0,
+        "theme": "Smallcap",
+        "52_week_low": 195.4,
+        "52_week_high": 415.8,
+        "current_price": 219.54
+      },
+      {
+        "symbol": "SUZLON",
+        "name": "Suzlon Energy",
+        "price": 56.75,
+        "rank": 7.0,
+        "theme": "Midcap",
+        "52_week_low": 37.9,
+        "52_week_high": 86.04,
+        "current_price": 56.75
+      }
+    ],
+    "investment": 300.0,
+    "remaining": 23.710000000000008,
+    "count": 2,
+    "risk": "high",
+    "invested": 276.28999999999996
+  }
+]

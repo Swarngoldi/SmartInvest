@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Basket Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <style>
+        .chart-container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .status {
+            text-align: center;
+            margin: 20px;
+            font-weight: bold;
+        }
+        .stock-list {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="status" id="status">Loading stock data...</div>
+    <div id="basket-container"></div>
+
+    <script>
+        // List of CSV files to process (in same directory)
+        const csvFiles = [
+            'Auto.csv',
+            'Midcap.csv',
+            'It.csv',
+            'Healthcare.csv'
+        ];
+
+        // Function to process CSV data
+        async function processCSVFile(filename) {
+            try {
+                const response = await fetch(filename);
+                if (!response.ok) throw new Error(`Failed to load ${filename}`);
+                
+                const csvData = await response.text();
+                const result = Papa.parse(csvData, {
+                    header: true,
+                    skipEmptyLines: true,
+                    dynamicTyping: true
+                });
+                
+                // Filter valid stocks
+                const stocks = result.data.filter(row => 
+                    row['Stock Symbol'] && 
+                    !isNaN(row['Current Price']) && 
+                    !isNaN(row['52-Week Low']) && 
+                    !isNaN(row['52-Week High'])
+                );
+                
+                return {
+                    name: filename.replace('.csv', ''),
+                    stocks: stocks.map(row => ({
+                        symbol: row['Stock Symbol'],
+                        currentPrice: row['Current Price'],
+                        week52Low: row['52-Week Low'],
+                        week52High: row['52-Week High']
+                    }))
+                };
+            } catch (error) {
+                console.error(`Error processing ${filename}:`, error);
+                return {
+                    name: filename.replace('.csv', ''),
+                    stocks: [],
+                    error: error.message
+                };
+            }
+        }
+
+        // Calculate total values for a basket
+        function calculateTotals(basket) {
+            if (basket.stocks.length === 0) return null;
+            
+            return basket.stocks.reduce((totals, stock) => ({
+                low: totals.low + stock.week52Low,
+                current: totals.current + stock.currentPrice,
+                high: totals.high + stock.week52High,
+                count: totals.count + 1
+            }), { low: 0, current: 0, high: 0, count: 0 });
+        }
+
+        // Create chart for a basket
+        function createBasketChart(basket, totals) {
+            const container = document.getElementById('basket-container');
+            
+            const chartDiv = document.createElement('div');
+            chartDiv.className = 'chart-container';
+            container.appendChild(chartDiv);
+            
+            // Title
+            const title = document.createElement('h2');
+            title.textContent = `${basket.name} (${totals.count} stocks)`;
+            chartDiv.appendChild(title);
+            
+            // Chart
+            const canvas = document.createElement('canvas');
+            chartDiv.appendChild(canvas);
+            
+            // Register the plugin
+            Chart.register(ChartDataLabels);
+            
+            new Chart(canvas, {
+                type: 'line',
+                data: {
+                    labels: ['Initial (52W Low)', 'Current', 'Final (52W High)'],
+                    datasets: [{
+                        label: 'Price Movement',
+                        data: [totals.low, totals.current, totals.high],
+                        borderColor: 'rgb(75, 192, 192)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        tension: 0.1,
+                        fill: true,
+                        pointBackgroundColor: [
+                            'rgba(255, 99, 132, 1)', // Initial (red)
+                            'rgba(54, 162, 235, 1)', // Current (blue)
+                            'rgba(75, 192, 192, 1)'  // Final (green)
+                        ],
+                        pointRadius: 6,
+                        pointHoverRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            ticks: {
+                                callback: value => '₹' + value.toLocaleString('en-IN')
+                            }
+                        }
+                    },
+                    plugins: {
+                        tooltip: {
+                            callbacks: {
+                                label: context => {
+                                    const labels = {
+                                        0: 'Initial (52W Low)',
+                                        1: 'Current',
+                                        2: 'Final (52W High)'
+                                    };
+                                    return `${labels[context.dataIndex]}: ₹${context.raw.toLocaleString('en-IN')}`;
+                                }
+                            }
+                        },
+                        datalabels: {
+                            anchor: 'end',
+                            align: 'top',
+                            formatter: value => '₹' + value.toLocaleString('en-IN'),
+                            color: '#000',
+                            font: {
+                                weight: 'bold'
+                            }
+                        }
+                    }
+                },
+                plugins: [ChartDataLabels]
+            });
+            
+            // Totals display
+            const totalsDiv = document.createElement('div');
+            totalsDiv.innerHTML = `
+                <h3>Total Values:</h3>
+                <p>52-Week Low: ₹${totals.low.toLocaleString('en-IN')}</p>
+                <p>Current Price: ₹${totals.current.toLocaleString('en-IN')}</p>
+                <p>52-Week High: ₹${totals.high.toLocaleString('en-IN')}</p>
+            `;
+            chartDiv.appendChild(totalsDiv);
+            
+            // Stock list
+            const stockList = document.createElement('div');
+            stockList.className = 'stock-list';
+            stockList.innerHTML = '<h3>Stocks:</h3><ul>' + 
+                basket.stocks.map(stock => 
+                    `<li>${stock.symbol}: Current ₹${stock.currentPrice.toLocaleString('en-IN')} ` +
+                    `(Low: ₹${stock.week52Low.toLocaleString('en-IN')}, ` +
+                    `High: ₹${stock.week52High.toLocaleString('en-IN')})</li>`
+                ).join('') + '</ul>';
+            chartDiv.appendChild(stockList);
+        }
+
+        // Main function to load and process all CSV files
+        async function loadAllBaskets() {
+            const statusElement = document.getElementById('status');
+            const container = document.getElementById('basket-container');
+            container.innerHTML = '';
+            
+            let hasData = false;
+            
+            for (const file of csvFiles) {
+                statusElement.textContent = `Loading ${file}...`;
+                const basket = await processCSVFile(file);
+                
+                if (basket.stocks.length > 0) {
+                    hasData = true;
+                    const totals = calculateTotals(basket);
+                    createBasketChart(basket, totals);
+                } else {
+                    console.warn(`No valid data in ${file}${basket.error ? ': ' + basket.error : ''}`);
+                }
+            }
+            
+            statusElement.textContent = hasData 
+                ? "Analysis complete!" 
+                : "No valid stock data found in any CSV files";
+        }
+
+        // Start the process when page loads
+        window.addEventListener('DOMContentLoaded', loadAllBaskets);
+    </script>
+</body>
+</html>
