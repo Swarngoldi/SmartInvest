@@ -21,14 +21,8 @@ Our algorithm uses a **composite score** combining 📘 **fundamental analysis**
 - 📊 **Intelligent Stock Selection**  
   Driven by:
   - 📘 Fundamental Metrics (P/E, EPS, etc.)
-  - 📉 Technical Indicators (RSI, MACD, etc.)
+  - 📉 Technical Indicators (like RSI)
   - 📰 Real-time News Sentiment Scoring
-
-- 📂 **In-Depth Stock View**  
-  Including:
-  - Company Info
-  - Current Price & 52-week Range
-  - Key Stats & Trends
 
 - 🔐 **Secure User Authentication**  
   Seamless Login / Registration with encryption
