@@ -2,11 +2,7 @@
 
 **SmartInvest Basket** is a personalized stock investment tool that generates optimized stock baskets tailored to an individual's income and risk profile (High/Low). It empowers users to make **data-driven investment decisions** through diversified portfolios based on themes and sectors.
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" alt="Status Badge">
-  <img src="https://img.shields.io/badge/Built%20With-React-blue" alt="React Badge">
-  <img src="https://img.shields.io/badge/Finance-Stocks-green" alt="Stocks Badge">
-</div>
+
 
 ---
 
@@ -29,10 +25,26 @@
 
 ## 🚀 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (or your choice)
-- **APIs:** Integrated for stock data & news sentiment
+## 🚀 Tech Stack
+
+### 🖥️ Frontend:
+- **React.js** – Component-based dynamic interface
+- **Tailwind CSS** – Modern and responsive styling
+
+### 🧠 Backend:
+- **Node.js + Express.js** – API server and user authentication
+- **MongoDB** – Storing user info, preferences, and saved baskets
+
+### 🐍 Python (for Data Handling & Scraping):
+- **Pandas** – Data preprocessing and filtering
+- **NumPy** – Numerical computation
+- **Requests / BeautifulSoup** – Web scraping for live stock prices and metrics
+
+### 📡 Integrations:
+- Custom Python scripts for:
+  - Stock price fetching
+  - Basket generation logic
+- Express routes to fetch and display computed results on the frontend
 
 ---
 
@@ -40,6 +52,9 @@
 
 ### 🔐 Login Page
 ![Login](./screenshots/Screenshot%202025-04-08%20130854.png)
+
+### 📝 Registration Page
+![Register](./screenshots/Screenshot%202025-04-08%20132246.png)
 
 ### 📊 Dashboard
 ![Dashboard](./screenshots/Screenshot%202025-04-08%20130943.png)
@@ -50,10 +65,7 @@
 ### 🧾 Stock Details
 ![Stock Details](./screenshots/Screenshot%202025-04-08%20131016.png)
 
-### 📝 Registration Page
-![Register](./screenshots/Screenshot%202025-04-08%20132246.png)
-
-### 📉 Midcap Growth Graph
+### 📉 Growth Graph
 ![Graph](./screenshots/Screenshot%202025-04-08%20132900.png)
 
 ---
