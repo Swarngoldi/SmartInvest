@@ -1,6 +1,6 @@
 # 💼 SmartInvest Basket
 
-**SmartInvest Basket** is a personalized stock investment tool that creates customized stock baskets based on an individual's income and risk profile (High/Low). The baskets are diversified across various themes and sectors, aiming to deliver high growth potential. Each basket includes a list of carefully selected stocks that are ranked using a combined score of fundamental analysis, technical indicators, and news sentiment analysis, ensuring smart and data-driven investment decisions.
+SmartInvest Basket is a personalized stock investment tool that creates customized stock baskets based on an individual's income and risk profile (High/Low). The baskets are diversified across various themes and sectors, aiming to deliver high growth potential. Each basket includes a list of carefully selected stocks that are ranked using a combined score of fundamental analysis, technical indicators, and news sentiment analysis, ensuring smart and data-driven investment decisions.
 ---
 
 ## 🧠 Key Features
