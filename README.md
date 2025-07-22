@@ -1,82 +1,87 @@
 # 💼 SmartInvest Basket
 
-SmartInvest Basket is a personalized stock investment tool that creates customized stock baskets based on an individual's income and risk profile (High/Low). The baskets are diversified across various themes and sectors, aiming to deliver high growth potential. Each basket includes a list of carefully selected stocks that are ranked using a combined score of fundamental analysis, technical indicators, and news sentiment analysis, ensuring smart and data-driven investment decisions.
+*SmartInvest Basket* is a **personalized stock investment platform** that crafts tailored stock baskets based on a user's **income level** and **risk appetite** (High / Low). Each basket is **diversified across multiple sectors and market caps**, aiming to balance growth potential with risk.
+
+Our algorithm uses a **composite score** combining 📘 **fundamental analysis**, 📉 **technical indicators**, and 📰 **news sentiment** to rank and select stocks — enabling **data-driven investment decisions**.
+
 ---
 
 ## 🧠 Key Features
 
-- 🔍 **Smart Basket Generation** based on:
-  - Income input
-  - Risk appetite (High/Low)
-- 📈 **Diversification** across:
-  - Largecap, Midcap, Smallcap, Sector-based themes (IT, Healthcare, Auto, etc.)
-- 📊 **Data-Driven Decisions** using:
-  - 📘 Fundamental Analysis
-  - 📉 Technical Indicators
-  - 📰 News Sentiment Scoring
-- 📂 **Detailed Stock View**:
-  - Company info, current price, 52-week range
-- 🔐 User Authentication: Secure login & registration
+- 🔍 **Smart Basket Generation**  
+  Tailored recommendations based on:
+  - 💰 Income Input
+  - ⚖️ Risk Appetite (High / Low)
+
+- 📈 **Diversified Exposure**  
+  Across:
+  - Largecap, Midcap, Smallcap
+  - Sectoral themes (e.g., IT, Healthcare, Auto)
+
+- 📊 **Intelligent Stock Selection**  
+  Driven by:
+  - 📘 Fundamental Metrics (P/E, EPS, etc.)
+  - 📉 Technical Indicators (RSI, MACD, etc.)
+  - 📰 Real-time News Sentiment Scoring
+
+- 📂 **In-Depth Stock View**  
+  Including:
+  - Company Info
+  - Current Price & 52-week Range
+  - Key Stats & Trends
+
+- 🔐 **Secure User Authentication**  
+  Seamless Login / Registration with encryption
 
 ---
 
-
 ## 🚀 Tech Stack
 
-### 🖥️ Frontend:
-- **React.js** – Component-based dynamic interface
-- **Tailwind CSS** – Modern and responsive styling
+### 🖥️ Frontend
+- ⚛️ **React.js** – Dynamic & modular UI
+- 🎨 **Tailwind CSS** – Clean and responsive styling
 
-### 🧠 Backend:
-- **Node.js + Express.js** – API server and user authentication
-- **MongoDB** – Storing user info, preferences, and saved baskets
+### 🧠 Backend
+- 🟩 **Node.js + Express.js** – REST APIs & auth logic
+- 🍃 **MongoDB** – NoSQL database for users and baskets
 
-### 🐍 Python (for Data Handling & Scraping):
-- **Pandas** – Data preprocessing and filtering
-- **NumPy** – Numerical computation
-- **Requests / BeautifulSoup** – Web scraping for live stock prices and metrics
+### 🐍 Python (Data & Scraping)
+- 🧮 **Pandas** – Data cleaning & transformation
+- ➕ **NumPy** – Financial computations
+- 🌐 **Requests / BeautifulSoup** – Scraping stock info from the web
 
-### 📡 Integrations:
-- Custom Python scripts for:
-  - Stock price fetching
+### 🔌 Integrations
+- 🧠 Custom Python scripts for:
+  - Live stock price fetching
   - Basket generation logic
-- Express routes to fetch and display computed results on the frontend
+- 🔄 API endpoints to serve computed data to the UI
 
 ---
 
 ## 📸 Screenshots
 
-### 🔐 Login Page
-![Login](./screenshots/Screenshot%202025-04-08%20130854.png)
-
-### 📝 Registration Page
-![Register](./screenshots/Screenshot%202025-04-08%20132246.png)
-
-### 📊 Dashboard
-![Dashboard](./screenshots/Screenshot%202025-04-08%20130943.png)
-
-### 📈 Basket Overview
-![Basket Overview](./screenshots/Screenshot%202025-04-08%20130955.png)
-
-### 🧾 Stock Details
-![Stock Details](./screenshots/Screenshot%202025-04-08%20131016.png)
-
-### 📉 Growth Graph
-![Graph](./screenshots/Screenshot%202025-04-08%20132900.png)
+| 🖼️ Page | Preview |
+|--------|---------|
+| 🔐 Login | ![Login](./screenshots/Screenshot%202025-04-08%20130854.png) |
+| 📝 Register | ![Register](./screenshots/Screenshot%202025-04-08%20132246.png) |
+| 📊 Dashboard | ![Dashboard](./screenshots/Screenshot%202025-04-08%20130943.png) |
+| 📈 Basket Overview | ![Basket](./screenshots/Screenshot%202025-04-08%20130955.png) |
+| 🧾 Stock Details | ![Details](./screenshots/Screenshot%202025-04-08%20131016.png) |
+| 📉 Growth Graph | ![Graph](./screenshots/Screenshot%202025-04-08%20132900.png) |
 
 ---
 
-## 🧪 How to Use
+## 🧪 How to Run Locally
 
 ```bash
-# Clone the repository
+# 1️⃣ Clone the repository
 git clone https://github.com/yourusername/smartinvest-basket.git
 
-# Navigate to the project folder
+# 2️⃣ Navigate to the project folder
 cd smartinvest-basket
 
-# Install dependencies for both client and server
+# 3️⃣ Install project dependencies
 npm install
 
-# Run the development server
+# 4️⃣ Run the development server (client + server concurrently)
 npm run dev
