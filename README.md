@@ -1,8 +1,8 @@
 # 💼 SmartInvest Basket
 
-CONTRIBUTIONS - : SMEET NAHAR
-                  SWARNIM MUGDIYA
-                  SHAILESH MORE
+CONTRIBUTIONS - : SMEET NAHAR,
+                  SWARNIM MUGDIYA,
+                  SHAILESH MORE.
                   
 *SmartInvest Basket* is a **personalized stock investment platform** that crafts tailored stock baskets based on a user's **income level** and **risk appetite** (High / Low). Each basket is **diversified across multiple sectors and market caps**, aiming to balance growth potential with risk.
 
